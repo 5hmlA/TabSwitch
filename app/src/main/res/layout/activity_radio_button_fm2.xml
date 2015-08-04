@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.example.loopviewpager.LoopActivity1" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/radio0"
+            android:clickable="true"
+            style="@style/radiogroup"
+            android:text="1" />
+
+        <Button
+            android:clickable="true"
+            android:id="@+id/radio1"
+            style="@style/radiogroup"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/radio2"
+            style="@style/radiogroup"
+            android:text="3" />
+        <Button
+            android:id="@+id/radio3"
+            style="@style/radiogroup"
+            android:text="4" />
+        <Button
+            android:id="@+id/radio4"
+            style="@style/radiogroup"
+            android:text="5" />
+    </RadioGroup>
+
+</LinearLayout>

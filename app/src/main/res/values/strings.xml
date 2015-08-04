@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TabSwitch</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_radio_button_fm">RadioButtonFm</string>
+    <string name="title_activity_radio_button_fm2">RadioButtonFM2</string>
+    <string name="title_activity_tab_host_fm">TabHostFM</string>
+</resources>
